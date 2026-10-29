@@ -42,6 +42,7 @@ Search the codebase for `OWNER-TODO` to find each one.
 - [ ] `BOOKING_WEBHOOK_URL`: your n8n webhook (receives JSON: `type, business, source, submittedAt, name, phone, email, zip, service, window, notes`).
 - [ ] or `RESEND_API_KEY` + `BOOKING_TO_EMAIL` (+ `BOOKING_FROM_EMAIL` on a domain verified in Resend) as the fallback.
 - Until one is set, the production form politely tells visitors to call instead.
+- [ ] Turn on **Web Analytics** in the Vercel project (Project → Analytics) so the analytics script records visits.
 
 ## Facts used in copy (general industry guidance; keep or edit)
 - Duct leakage: "20–30% of the air moving through the ducts is lost…": ENERGY STAR duct-sealing guidance.
