@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Inter, JetBrains_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import SiteAnalytics from "@/components/chrome/SiteAnalytics";
 import { seo } from "@/content/site";
 import { siteUrl } from "@/lib/site-url";
 import "./globals.css";
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body id="top">
         {children}
-        {process.env.NEXT_PUBLIC_VERCEL_ENV ? <Analytics /> : null}
+        <SiteAnalytics />
       </body>
     </html>
   );
