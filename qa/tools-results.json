@@ -1,0 +1,182 @@
+[
+  {
+    "name": "thermostat: ArrowRight ×9 → 70°",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "thermostat: End → 74°",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "thermostat: PageDown → 71°",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "thermostat: caption changes",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "thermostat: mouse drag to lower-left → ~60°",
+    "ok": true,
+    "detail": "got 60"
+  },
+  {
+    "name": "thermostat: + button",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "filter: Home → 0",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "filter: ArrowRight + PageUp → 12",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "filter: mouse drag → ~80",
+    "ok": true,
+    "detail": "got 80"
+  },
+  {
+    "name": "picker: click Heat pump",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "picker: ArrowRight → Ductless",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "picker: focus follows tab",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "calc: default 12 × $650 → Replace",
+    "ok": true,
+    "detail": "12 yrs × $650 = $7,800 — over the $5,000 line."
+  },
+  {
+    "name": "calc: age 1 → Repair",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "calc: 5 × $800 = $4,000 → toss-up",
+    "ok": true,
+    "detail": "5 yrs × $800 = $4,000 — under the $5,000 line."
+  },
+  {
+    "name": "calc: 3 symptoms → Replace",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "calc: heat pump ≥15 yrs shows R-22 note",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "faq: Enter opens item 2",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "faq: item 1 closed",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "form: empty submit shows field errors",
+    "ok": true,
+    "detail": "4 errors"
+  },
+  {
+    "name": "form: focus moves to first invalid field",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "form: success state",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "skip link is first focusable",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "desktop: no console errors",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "menu: opens",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "menu: Esc closes",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "menu: focus returns to burger",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "dial ≥ 260px on mobile",
+    "ok": true,
+    "detail": "260px"
+  },
+  {
+    "name": "thermostat: touch tap at 3 o'clock → ~72°",
+    "ok": true,
+    "detail": "got 72"
+  },
+  {
+    "name": "filter: touch tap at 25%",
+    "ok": true,
+    "detail": "got 25"
+  },
+  {
+    "name": "picker: tap Ductless",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "calc: tap 2 symptoms → toss-up or replace",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "mobile: no console errors",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "api: honeypot answers ok but is not forwarded",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "api: invalid ZIP → 422 with field error",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "api: 6th request in 10 min → 429",
+    "ok": true,
+    "detail": ""
+  }
+]

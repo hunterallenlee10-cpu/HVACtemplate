@@ -54,10 +54,10 @@ export default function Preloader() {
     const tick = () => {
       const s = storyStore.get();
       const elapsed = performance.now() - t0;
-      const target = preloader.from + (preloader.to - preloader.from) * Math.min(1, s.loaded / 0.6);
+      const target = preloader.from + (preloader.to - preloader.from) * Math.min(1, s.loaded / 0.4);
       shown.v += (target - shown.v) * 0.12;
       if (numRef.current) numRef.current.textContent = String(Math.round(shown.v));
-      if ((s.loaded >= 0.6 && elapsed > MIN) || elapsed > CAP) finish();
+      if ((s.loaded >= 0.4 && elapsed > MIN) || elapsed > CAP) finish();
       else raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);

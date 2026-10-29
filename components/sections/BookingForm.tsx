@@ -12,7 +12,8 @@ export default function BookingForm() {
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const data = Object.fromEntries(new FormData(e.currentTarget).entries());
+    const form = e.currentTarget; // React clears currentTarget after the await below
+    const data = Object.fromEntries(new FormData(form).entries());
     // zod is loaded on demand to keep it out of the initial bundle
     const { bookingSchema } = await import("@/lib/bookingSchema");
     const parsed = bookingSchema.safeParse(data);
@@ -24,7 +25,7 @@ export default function BookingForm() {
       }
       setErrors(errs);
       const first = Object.keys(errs)[0];
-      e.currentTarget.querySelector<HTMLElement>(`[name="${first}"]`)?.focus();
+      form.querySelector<HTMLElement>(`[name="${first}"]`)?.focus();
       return;
     }
     setErrors({});

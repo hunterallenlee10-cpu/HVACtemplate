@@ -106,7 +106,7 @@ export const chapters: Chapter[] = [
     rail: "X-ray",
     hud: { temp: null, label: "OUTDOOR UNIT" },
     scrollVh: 360,
-    warmth: [0.9, 0.85],
+    warmth: [0.9, 1],
     playUntil: 0.58,
     textWindow: [0.06, 0.4],
     still: "/img/keys/K08-xray",
@@ -140,7 +140,7 @@ export const xrayAnchors: Record<string, { x: number; y: number; side: "left" | 
   coil: { x: 57.4, y: 36.5, side: "right", at: 0.66 },
   board: { x: 45.2, y: 49, side: "left", at: 0.72 },
   compressor: { x: 49.6, y: 66, side: "right", at: 0.78 },
-  cap: { x: 53.4, y: 57, side: "right", at: 0.84 },
+  cap: { x: 53, y: 46.5, side: "right", at: 0.84 },
 };
 
 /** chapter 7 checklist: visible window and tick range (chapter progress) */

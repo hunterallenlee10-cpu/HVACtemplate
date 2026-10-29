@@ -4,7 +4,8 @@ import { gsap } from "gsap";
 import { hero } from "@/content/site";
 import type { Chapter } from "@/content/chapters";
 import { overlays } from "@/lib/storyStore";
-import { revealLines } from "@/lib/reveal";
+import { hideLines, revealLines } from "@/lib/reveal";
+import { prefersReducedMotion } from "@/lib/useLenis";
 import { scramble } from "@/lib/scramble";
 import SplitHeading from "./SplitHeading";
 import Still from "./Still";
@@ -17,6 +18,12 @@ export default function HeroText({ still }: { still: Chapter }) {
     const el = ref.current!;
     const fades = el.querySelectorAll(".chapter__fade");
     let shown = false;
+    if (!prefersReducedMotion()) {
+      // pre-reveal state (the preloader is covering the page at this point)
+      gsap.set(el, { autoAlpha: 0 });
+      hideLines(el.querySelector(".split"));
+      gsap.set(fades, { autoAlpha: 0 });
+    }
     const enter = () => {
       shown = true;
       gsap.to(el, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out", overwrite: true });

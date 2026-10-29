@@ -1,0 +1,41 @@
+[
+  {
+    "type": "booking_request",
+    "business": "Northfield Heating & Air",
+    "source": "northfieldheating.com",
+    "submittedAt": "2026-10-29T00:18:57.791Z",
+    "name": "Jamie Rivera",
+    "phone": "(301) 555-0199",
+    "email": "jamie@example.com",
+    "zip": "21702",
+    "service": "Repair",
+    "window": "Morning (8–12)",
+    "notes": "QA test: upstairs is cold"
+  },
+  {
+    "type": "booking_request",
+    "business": "Northfield Heating & Air",
+    "source": "northfieldheating.com",
+    "submittedAt": "2026-10-29T00:20:10.233Z",
+    "name": "Jamie Rivera",
+    "phone": "(301) 555-0199",
+    "email": "jamie@example.com",
+    "zip": "21702",
+    "service": "Repair",
+    "window": "Morning (8–12)",
+    "notes": "QA test: upstairs is cold"
+  },
+  {
+    "type": "booking_request",
+    "business": "Northfield Heating & Air",
+    "source": "northfieldheating.com",
+    "submittedAt": "2026-10-29T00:43:12.672Z",
+    "name": "Jamie Rivera",
+    "phone": "(301) 555-0199",
+    "email": "jamie@example.com",
+    "zip": "21702",
+    "service": "Repair",
+    "window": "Morning (8–12)",
+    "notes": "QA test: upstairs is cold"
+  }
+]

@@ -234,7 +234,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   background: linear-gradient(rgba(6, 8, 11, 0.55), rgba(6, 8, 11, 0));
   transition: opacity 0.4s;
 }
-.nav--glass { background: rgba(14, 12, 11, 0.62); backdrop-filter: blur(14px) saturate(1.2); -webkit-backdrop-filter: blur(14px) saturate(1.2); border-bottom-color: var(--line); }
+.nav--glass { background: rgba(14, 12, 11, 0.86); backdrop-filter: blur(14px) saturate(1.2); -webkit-backdrop-filter: blur(14px) saturate(1.2); border-bottom-color: var(--line); }
 .nav--glass::before { opacity: 0; }
 .nav__inner { height: 100%; display: flex; align-items: center; justify-content: space-between; padding: 0 clamp(16px, 3vw, 40px); gap: 24px; }
 
@@ -397,13 +397,14 @@ button { font: inherit; color: inherit; cursor: pointer; }
   left: var(--gutter);
   bottom: 14vh;
   width: min(560px, calc(100vw - 2 * var(--gutter)));
-  visibility: hidden;
-  opacity: 0;
 }
+/* Chapters start hidden; the hero is server-rendered visible (it's the LCP element and paints
+   under the preloader), and HeroText sets its pre-reveal state on mount. */
+.chapter:not(.chapter--hero) { visibility: hidden; opacity: 0; }
 .chapter__text { pointer-events: auto; }
 .chapter__still { display: none; }
-.chapter .split .wi { transform: translateY(110%); }
-.chapter__fade { opacity: 0; }
+.chapter:not(.chapter--hero) .split .wi { transform: translateY(110%); }
+.chapter:not(.chapter--hero) .chapter__fade { opacity: 0; }
 .chapter .body { margin-top: 22px; text-shadow: 0 1px 18px rgba(0, 0, 0, 0.5); }
 .chapter .btn { margin-top: 28px; }
 .chapter .footnote { margin-top: 18px; }
@@ -484,6 +485,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .story__anchors span { position: absolute; left: 0; width: 1px; height: 1px; }
 
 /* ---- Static story: reduced motion or no JS ---- */
+.static-story { --warmth: 1; }
 .static-story .story { height: auto; }
 .static-story .story__sticky { position: static; height: auto; overflow: visible; }
 .static-story .story__stage,
@@ -554,8 +556,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .filter { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(32px, 5vw, 80px); align-items: center; }
 .filter__copy .shead { margin-bottom: 26px; }
 .filter__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 32px 0 14px; }
-.filter__stat { display: flex; flex-direction: column-reverse; gap: 6px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
-.filter__stat dd { font-family: var(--f-display); font-weight: 800; font-size: clamp(22px, 2vw, 30px); letter-spacing: -0.03em; line-height: 1; margin: 0; }
+.filter__stat { display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: 6px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.filter__stat dd { font-family: var(--f-display); font-weight: 800; font-size: clamp(20px, 1.7vw, 26px); white-space: nowrap; letter-spacing: -0.03em; line-height: 1; margin: 0; }
 .filter__stat dt { color: var(--muted); font-size: 13.5px; line-height: 1.3; }
 .filter__copy .btn { margin-top: 24px; }
 .compare { position: relative; aspect-ratio: 16 / 10; overflow: hidden; touch-action: pan-y; cursor: ew-resize; user-select: none; }
@@ -660,7 +662,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .review { padding: 28px; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; gap: 20px; }
 .review--placeholder { border-style: dashed; border-color: var(--line-2); background: transparent; }
 .review__quote { font-family: var(--f-mono); font-size: 13px; letter-spacing: 0.06em; color: var(--muted); }
-.review__meta { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(154, 145, 134, 0.6); }
+.review__meta { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
 @media (max-width: 960px) { .reviews__grid { grid-template-columns: 1fr; } .review { min-height: 140px; } }
 
 /* ---- Service area ---- */
@@ -743,6 +745,7 @@ textarea.input { resize: vertical; min-height: 110px; }
   .chapter { bottom: calc(96px + env(safe-area-inset-bottom)); }
   .chapter--hero { bottom: 15vh; }
   .chapter .eyebrow { font-size: 11px; letter-spacing: 0.1em; }
+  .chapter .chip { font-size: 10.5px; letter-spacing: 0.08em; padding: 7px 12px; gap: 8px; }
   .display--hero { font-size: clamp(50px, 14vw, 64px); }
   .display--chapter { font-size: clamp(40px, 11.5vw, 54px); }
   .display--section { font-size: clamp(40px, 11vw, 54px); }
