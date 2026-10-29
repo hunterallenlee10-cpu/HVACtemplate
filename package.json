@@ -1,0 +1,34 @@
+{
+  "name": "northfield-hvac",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "placeholders": "node scripts/make-placeholders.mjs",
+    "frames": "bash scripts/extract-frames.sh",
+    "images": "node scripts/optimize-images.mjs",
+    "qa": "node scripts/qa-screens.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.27",
+    "next": "15.5.28",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "sharp": "^0.34.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5"
+  }
+}

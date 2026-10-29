@@ -1,0 +1,19 @@
+{
+  "$comment": "Source of truth for scripts/extract-frames.sh. Each chapter is built from one or more clips in assets/raw/clips (V0X.mp4). from/to are fractions of the clip. focal = [start,end] x-position (0..1) the mobile portrait crop follows.",
+  "fps": 12,
+  "desktopWidth": 1600,
+  "mobileWidth": 810,
+  "mobileAspect": 0.75,
+  "mobileStep": 2,
+  "desktopQuality": 68,
+  "mobileQuality": 66,
+  "chapters": [
+    { "id": "ch01", "segments": [{ "clip": "V01", "from": 0, "to": 1 }], "focal": [0.5, 0.68] },
+    { "id": "ch02", "segments": [{ "clip": "V02", "from": 0, "to": 1 }], "focal": [0.68, 0.55] },
+    { "id": "ch03", "segments": [{ "clip": "V03", "from": 0, "to": 1 }, { "clip": "V04", "from": 0, "to": 0.62 }], "focal": [0.55, 0.5] },
+    { "id": "ch04", "segments": [{ "clip": "V04", "from": 0.62, "to": 1 }, { "clip": "V08", "from": 0, "to": 1 }], "focal": [0.5, 0.5] },
+    { "id": "ch05", "segments": [{ "clip": "V05", "from": 0, "to": 1 }], "focal": [0.5, 0.68] },
+    { "id": "ch06", "segments": [{ "clip": "V06", "from": 0, "to": 1 }], "focal": [0.68, 0.5] },
+    { "id": "ch07", "segments": [{ "clip": "V07", "from": 0, "to": 1 }], "focal": [0.5, 0.5] }
+  ]
+}

@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+.env
+.env.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+/assets/raw/
+/assets/tmp/
+/qa/*.png
+!/qa/.gitkeep
+.DS_Store

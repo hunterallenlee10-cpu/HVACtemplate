@@ -1,0 +1,133 @@
+{
+ "K01": [
+  "df6fd4e5-f760-41d5-8e15-98249f208813",
+  "5d8af186-d17d-418c-a1b8-0aa773cb2e5c",
+  "555b2429-2ead-431e-b6ed-a23ef5a9737a",
+  "429218b3-c31c-46c3-8a11-9642986c81e2"
+ ],
+ "K04": [
+  "6648b8d8-fb14-4503-aa62-580b14b9881f",
+  "a721fbd5-ef33-4533-a590-d339b09c5ad5",
+  "0cc8f36a-6770-489f-9a85-a32a0ac69586",
+  "7825043e-3afe-4ea2-bd5f-d80ed0750412"
+ ],
+ "K05": [
+  "2ffdaeac-0948-4d07-9dad-88f4caecf722",
+  "d7d1bf10-1b5e-4031-abc9-234a37224a4c",
+  "567d300e-870b-4b51-8fe6-dee24956ef30",
+  "9c682b42-09f3-4f9c-b0bf-8cef200a4af6"
+ ],
+ "K02": [
+  "a4407a3c-eee1-4b22-9655-75dd54a86962",
+  "ffb1d626-a1af-4bb2-9d6b-bd08d136e16a",
+  "6911417c-5b11-4676-ae51-41576a0deb37",
+  "2511b2a7-5ea3-4f0a-9fb3-b871e6468e6d"
+ ],
+ "K09": [
+  "01394027-dcb3-498b-9fcd-69773ad0192d",
+  "7c4f46a5-9d23-4d78-a6e3-7d09146591f1",
+  "ce73bfe0-964f-4c32-a955-aff3879e7acf",
+  "d71d5c97-ab26-4035-bc6e-b08648e38153"
+ ],
+ "K11": [
+  "3dbb3b98-c2af-48ce-b7ee-fb7a4920a9cb",
+  "e74c1789-2ee7-4962-bb0f-a2a583c867e7",
+  "4fe58cc6-6dce-4d55-a8a2-412dde9ba8e3",
+  "d0c28a5d-54aa-4aa1-adb1-1f0105a5466d"
+ ],
+ "K12": [
+  "aaf8386e-d478-4b1d-b5f8-47856faca327",
+  "b375d1f1-0950-4c08-a950-7767d82e0ba2",
+  "59d25573-cdb2-4996-b645-2c29642060b1",
+  "6fb247e5-cfc8-498d-8f8c-856db1bc0dc8"
+ ],
+ "K13": [
+  "b7ee4aaf-d329-4d69-a539-4d495e3d6cc1",
+  "7e2c0044-e47d-4f6b-8dc8-ef1f46e468e6",
+  "3144fead-390c-403f-a02e-4839257991c2",
+  "1a7d0fa1-8ce7-45dd-9cce-e17ee94661e4"
+ ],
+ "K03": [
+  "d97cbceb-b3fe-489d-a557-34ede2359b6e",
+  "ca18b1ea-1da7-4fa8-aaeb-d9a558d0f733",
+  "16b1e6d5-0245-41ac-876c-287ff5d8e591",
+  "605e99e2-5304-4c3a-86ab-83190b0cb578"
+ ],
+ "K06": [
+  "b00511fe-0c84-4932-933e-c12e91dea133",
+  "2c38f091-8565-4bd2-9af6-dfabb2b38cc4",
+  "de627274-d1e4-4452-be5b-7be4ede1c662",
+  "0966b656-20e4-4074-bcb0-e9a16475765b"
+ ],
+ "K06b": [
+  "840891ba-9d6c-4bba-9077-9d96c84f894c",
+  "232dfec5-feaf-41c2-bd90-dfb56468d1c0",
+  "ba8cfe6e-6725-40dc-a1c5-a3dd625f9ddc",
+  "600bfabb-a133-4456-810b-6a65e478f02b"
+ ],
+ "K07": [
+  "2e8761ea-6fdc-4b22-8e4d-39b94ce20a02",
+  "dcb2ff52-9618-4bc3-94dc-86cfafa68ca1",
+  "e6310cea-ffda-42f0-9d2a-8b8935765362",
+  "76c03c4f-c200-4c52-8d49-0c13b52ed202"
+ ],
+ "K10": [
+  "6e1d270c-90f7-4fb9-b0b9-ff0fedbcd2a0",
+  "f554bf57-3b45-4908-94ca-43affbd276d4",
+  "e2bf103a-5579-4384-976b-31f8f4342497",
+  "e91ab898-3c70-48ca-adbe-dd56d567f544"
+ ],
+ "K14": [
+  "3968a933-ade1-4073-9ac2-3d7b86299148",
+  "92f1b57a-af6c-4852-b657-ad8c89eb4719",
+  "b91458d9-b076-496c-a79a-45f5a4c70abc",
+  "37296c70-7310-4dd9-a1f9-e5bf1d64b0b7"
+ ],
+ "V04-kling": "acaa27dc-875f-45b9-bebb-58955b886a67",
+ "V04-seedance": "10b161d9-0957-46c5-9bab-918427fc86b5",
+ "V08-kling": "a51f7360-606a-48e5-a593-355eb4c840f1",
+ "winners": {
+  "K01": "429218b3-c31c-46c3-8a11-9642986c81e2",
+  "K02": "2511b2a7-5ea3-4f0a-9fb3-b871e6468e6d",
+  "K04": "a721fbd5-ef33-4533-a590-d339b09c5ad5",
+  "K05": "9c682b42-09f3-4f9c-b0bf-8cef200a4af6",
+  "K09": "ce73bfe0-964f-4c32-a955-aff3879e7acf",
+  "K11": "4fe58cc6-6dce-4d55-a8a2-412dde9ba8e3",
+  "K12": "aaf8386e-d478-4b1d-b5f8-47856faca327",
+  "K13": "3144fead-390c-403f-a02e-4839257991c2",
+  "K03": "605e99e2-5304-4c3a-86ab-83190b0cb578",
+  "K06": "b00511fe-0c84-4932-933e-c12e91dea133",
+  "K06b": "ba8cfe6e-6725-40dc-a1c5-a3dd625f9ddc",
+  "K07": "2e8761ea-6fdc-4b22-8e4d-39b94ce20a02",
+  "K10": "e2bf103a-5579-4384-976b-31f8f4342497",
+  "K14": "b91458d9-b076-496c-a79a-45f5a4c70abc",
+  "K08": "99c65e6a-f955-448f-b3b6-2f8923d95d0a"
+ },
+ "K08": [
+  "99c65e6a-f955-448f-b3b6-2f8923d95d0a",
+  "84667097-1d8b-4d24-bb68-b0e4c781b3f5",
+  "490978c8-7fc0-4cdf-9a95-04c1b21c3ffc",
+  "50b6e415-d6ec-416a-85e2-79bfad384adc"
+ ],
+ "V01-kling": "c8286415-f5aa-4b40-8eae-739d29aaf04d",
+ "V01-seedance": "28b8c278-eb6d-4ced-9d65-959585402683",
+ "V02-kling": "49773cf5-f564-492d-b99e-12ebd4f6c0b5",
+ "V02-seedance": "fe807eb3-a2de-40e9-9cda-5f1605da3d62",
+ "V03-kling": "669cb59a-087b-4a49-bb77-591e44806355",
+ "V03-seedance": "6adb967d-b35c-48af-acce-7d0d3fd622fb",
+ "V05-kling": "565e5980-9563-4db9-948f-eba7b48b09ea",
+ "V05-seedance": "b4c40b68-37e8-4765-b5bb-45f996f3a8a2",
+ "V06-kling": "cab15ff4-3ad4-4e14-8916-44b553e7f7b7",
+ "V06-seedance": "9d905d19-ded5-418b-94a8-eafe84686507",
+ "V07-kling": "72ba242b-cd87-403e-84b3-90244cf5b2a2",
+ "V07-seedance": "dbc17f80-3381-4072-aa92-36851ec8e01e",
+ "V03-kling-r2": "00b4ed92-0175-457d-8b45-c620d0dd0027",
+ "V03-seedance-r2": "e4e75beb-d769-469a-a9ce-88600cb70f4f",
+ "V01-seedance-r2": "bcb6ab76-fb92-425d-a444-efd1212530b7",
+ "V04-seedance-r2": "8f70b3f6-6014-4843-ad44-531addfc1112",
+ "failed": [
+  "10b161d9-0957-46c5-9bab-918427fc86b5 (V04 seedance)",
+  "28b8c278-eb6d-4ced-9d65-959585402683 (V01 seedance)",
+  "6adb967d-b35c-48af-acce-7d0d3fd622fb (V03 seedance)"
+ ]
+}
