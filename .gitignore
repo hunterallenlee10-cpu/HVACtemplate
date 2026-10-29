@@ -9,5 +9,7 @@ next-env.d.ts
 /assets/raw/
 /assets/tmp/
 /qa/*.png
+/qa/*.json
+/qa/*.jpg
 !/qa/.gitkeep
 .DS_Store

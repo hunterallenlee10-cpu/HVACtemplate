@@ -140,8 +140,8 @@
     "detail": "260px"
   },
   {
-    "name": "thermostat: touch tap at 3 o'clock → ~69–71°",
-    "ok": false,
+    "name": "thermostat: touch tap at 3 o'clock → ~72°",
+    "ok": true,
     "detail": "got 72"
   },
   {

@@ -5,6 +5,8 @@ living room, down a floor vent, through the ducts, into the furnace, back up int
 an x-ray exploded view of it. Interactive tools follow (thermostat dial, filter compare, system picker, repair-vs-replace
 calculator), then plans, reviews, service area, FAQ and booking.
 
+**Live:** https://hvactemplate.vercel.app · QA results: `qa/QA-REPORT.md`
+
 Brand in this repo: **Northfield Heating & Air, Frederick MD**, a placeholder. See `OWNER-TODO.md`.
 
 ## Run it
