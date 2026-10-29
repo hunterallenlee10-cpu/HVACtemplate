@@ -16,10 +16,11 @@ const framesJson = fs.existsSync(framesJsonPath)
 const probe = (f) =>
   parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString());
 
-const { fps, desktopWidth, mobileWidth, mobileAspect, mobileStep, desktopQuality, mobileQuality } = manifest;
+const { desktopWidth, mobileWidth, mobileAspect, mobileStep, desktopQuality, mobileQuality } = manifest;
 
 manifest.chapters.forEach((ch, ci) => {
   if (only && only !== ch.id) return;
+  const fps = ch.fps ?? manifest.fps;
   const inputs = [];
   const parts = [];
   let total = 0;
