@@ -49,6 +49,10 @@ export default function Footer() {
           © {year} {config.businessName}
         </span>
         <span>{config.cityState}</span>
+        <span style={{ flexBasis: "100%" }}>
+          Website by{" "}
+          <a href="https://www.leeenterprisesunlimited.com/" target="_blank" rel="noopener">Lee Enterprises Unlimited</a>
+        </span>
       </div>
     </footer>
   );
